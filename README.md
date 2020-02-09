@@ -5,7 +5,6 @@
 
 # DATASET DESCRIPTION
 ##### The dataset contains 14 columns:
-'''
 *world_rank*: world rank for university
 
 *institution*: name of university
@@ -33,7 +32,6 @@
 *score*: total score, used for determining world rank
 
 *year*: year of ranking (2012 to 2015)
-'''
 
 ## Required Packages
 ###### install.packages("devtools")
