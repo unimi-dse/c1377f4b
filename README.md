@@ -23,4 +23,5 @@
 
 ## Installation:
     # first intall the R package "devtools" if not installed yet
-     devtools::install_github("unimi-dse/c1377f4b") 
+     devtools::install_github("unimi-dse/c1377f4b")
+     
