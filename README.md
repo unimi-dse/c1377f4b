@@ -2,7 +2,7 @@
 ###### This project aims at exploring some data containing information about world university rankings. The collection of this kind of data is usually aimed at providing a classification based on specific scores and requirements. Generally, university rankings are not created only to direct student decisions to what would better fit their expectations, but also to gain consensus and sponsors for the universities themselves.
 
 ## WorldUniRank R package and functions:
-`WorldUniRank` R package aims at exploring the data contained in `cwurData.csv`. It contains four functions which give back the visualisation of four differents plots:
+##### `WorldUniRank` R package aims at exploring the data contained in `cwurData.csv`. It contains four functions which give back the visualisation of four differents plots:
 
 1. `Rank_Countries()`
     
@@ -16,7 +16,7 @@
     # first intall the R package "devtools" if not installed yet
      devtools::install_github("unimi-dse/c1377f4b") 
 
-### Dataset description 
+## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
    - *world_rank*: world rank for university
    - *institution*: name of university
