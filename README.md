@@ -8,8 +8,8 @@
     # first intall the R package "devtools" if not installed yet
      devtools::install_github("unimi-dse/c1377f4b") 
 
-### Dataset description
-##### The dataset contains 14 columns:
+### Dataset description 
+##### The dataset `cwurData.csv` contains 14 columns:
    - *world_rank*: world rank for university
    - *institution*: name of university
    - *country*: country of each university
