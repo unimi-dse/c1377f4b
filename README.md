@@ -1,22 +1,10 @@
 ## WORLD UNIVERSITY RANKINGS
-##### This project aims at exploring some data containing information about world university rankings. The collection of this kind of data is usually aimed at providing a classification based on specific scores and requirements. Generally, university rankings are not created only to direct student decisions to what would better fit their expectations, but also to gain consensus and sponsors for the universities themselves.
-
-## *WorldUniRank* R package and functions:
-##### `WorldUniRank` R package aims at exploring the data contained in `cwurData.csv`. 
-##### Once installed the needed packages (`devtools`, `tidyverse`, `dplyr`), it's possible to call the following functions which give back the visualisation of four differents plots:
-
-1. `Rank_Countries()` shows all the countries ordered by number of universities appeared in the rankings. 
-    
-2. `Top10_2015()` lists the best ranked universities in the world in 2015. 
-    
-3. `University_count2015()` shows how many universities appeared in 2015 rankings for each state.
-    
-4. `Score65()` presents all the universities that presented a score over 65 in the rankigs from 2012 to 2015. 
+##### This project aims at exploring some data containing information about world university rankings. The collection of this kind of data is usually aimed at providing a classification based on specific scores and requirements. Generally, university rankings are created not only to direct student decisions to what would better fit their expectations, but also to gain consensus and sponsors for the universities themselves.
 
 ## Installation:
-    # first intall the R package "devtools" if not installed yet
-     devtools::install_github("unimi-dse/c1377f4b") 
-
+    First install the R package "devtools" if not installed yet
+    devtools::install_github("unimi-dse/c1377f4b") 
+     
 ## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
    - *world_rank*: world rank for university
@@ -33,6 +21,20 @@
    - *patents*: rank for patents
    - *score*: total score, used for determining world rank
    - *year*: year of ranking (2012 to 2015)
+   
+## *WorldUniRank* R package and functions:
+##### `WorldUniRank` R package aims at exploring the data contained in `cwurData.csv`. 
+##### Once installed the needed packages (`devtools`, `tidyverse`, `dplyr`), it's possible to call the following functions which give back the visualisation of four differents plots:
+
+1. `Rank_Countries()` shows all the countries ordered by number of universities appeared in the rankings. 
+    
+2. `Top10_2015()` lists the best ranked universities in the world in 2015. 
+    
+3. `University_count2015()` shows how many universities appeared in 2015 rankings for each state.
+    
+4. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
+
+
 
 
 
