@@ -5,6 +5,7 @@
 ###### The package 'Ranking' contains five functions which are aimed at showing the visual representation of different scenarios. 
 
 ### Dataset description
+#
 ##### The dataset contains 14 columns:
 *world_rank*: world rank for university
 ##
@@ -33,6 +34,7 @@
 *score*: total score, used for determining world rank
 #
 *year*: year of ranking (2012 to 2015)
+
 
 ## Required Packages
 ###### install.packages("devtools")
