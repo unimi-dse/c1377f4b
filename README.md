@@ -1,6 +1,12 @@
 ## WORLD UNIVERSITY RANKINGS
 ###### This project aims at exploring some data containing information about world university rankings. The collection of this kind of data is usually aimed at providing a classification based on specific scores and requirements. Generally, university rankings are not created only to direct student decisions to what would better fit their expectations, but also to gain consensus and sponsors for the universities themselves.
 
+## 'WorldUniRank' R package:
+    WorldUniRank package aims at exploring the data contained in 
+
+## Installation:
+    # first intall the R package "devtools" if not installed yet
+     devtools::install_github("unimi-dse/c1377f4b") 
 
 ### Dataset description
 ##### The dataset contains 14 columns:
@@ -19,7 +25,6 @@
    - *score*: total score, used for determining world rank
    - *year*: year of ranking (2012 to 2015)
 
-## Installation:
-    # first intall the R package "devtools" if not installed yet
-     devtools::install_github("unimi-dse/c1377f4b") 
+
+
      
