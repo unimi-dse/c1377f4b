@@ -1,0 +1,12 @@
+Package: WorldUniRank
+Type: Package
+Title: Explores World University Rannking Data from 2012 to 2015
+Version: 0.1.0
+Author: Marta Magnani
+Maintainer: Marta Magnani <mmagnani.marta@gmail.com>
+Description: It contains four functions for the visualisation of the best ranked universities in the world.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: devtools, tidyverse, roxygen2, dplyr
+Depends: R (>= 2.10)
