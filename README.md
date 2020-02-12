@@ -41,7 +41,5 @@
 4. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
 
 
+![Rank_Countries()]() 
 
-
-
-     
