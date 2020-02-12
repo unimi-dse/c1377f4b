@@ -4,7 +4,11 @@
 ## Installation:
 ##### First install the R package `devtools` if not installed yet:
       devtools::install_github("unimi-dse/c1377f4b") 
-     
+
+## Usage:
+##### Load the package
+      require(WorldUniRank)
+
 ## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
    - *world_rank*: world rank for university
@@ -22,8 +26,7 @@
    - *score*: total score, used for determining world rank
    - *year*: year of ranking (2012 to 2015)
    
-## *WorldUniRank* R package and functions:
-##### `WorldUniRank` R package aims at exploring the data contained in `cwurData.csv`. 
+## Functions:
 ##### Once installed the needed packages (`devtools`, `tidyverse`, `dplyr`), it's possible to call the following functions to obtain the visualisation of four differents plots:
 
 1. `Rank_Countries()` shows all the countries ordered by number of universities appeared in the rankings. 
