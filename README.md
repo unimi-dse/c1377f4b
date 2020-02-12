@@ -10,7 +10,7 @@
       require(WorldUniRank)
 
 ## Dataset description: 
-##### The dataset `cwurData.csv` contains 14 columns:
+##### The dataset [`cwurData.csv`] (https://github.com/unimi-dse/c1377f4b/blob/master/cwurData.csv) contains 14 columns:
    - *world_rank*: world rank for university
    - *institution*: name of university
    - *country*: country of each university
