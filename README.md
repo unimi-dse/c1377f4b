@@ -35,7 +35,7 @@
 1. `Rank_Countries()` shows all the countries ordered by number of universities appeared in the rankings. 
     ![Rank_Countries()](Plots/Rank_Countries().1.png)
 2. `Top10_2015()` lists the best ranked universities in the world in 2015. 
-    ![Rank_Countries()](Plots/Top10_2015().png)
+    ![Rank_Countries()](Plots/Top10_2015().1.png)
 3. `University_count2015()` shows how many universities appeared in 2015 rankings for each state.
    ![Rank_Countries()](Plots/University_count2015().png) 
 4. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
