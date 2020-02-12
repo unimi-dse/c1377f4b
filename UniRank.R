@@ -11,7 +11,7 @@ Rank_Countries <- function() {
     coord_flip() +
     theme(legend.position="none") +
     labs(x="Count",y="Country") +
-    ggtitle("Countries by number of universities in Ranking")
+    ggtitle("Number of listed universities for each country")
   return(p1)}
 
 
