@@ -1,3 +1,21 @@
+#PREPARE AND SEE THE DATASET
+UniData<- function() {
+  library(tidyverse)
+  library(devtools)
+  library(dplyr)
+  library(ggplot2)
+  library(RColorBrewer)
+  library(tidyr)
+  library(roxygen2)
+  Ranking <- file.choose()
+  Ranking <- read.csv(Ranking, header=TRUE, sep=,)
+  View(Ranking)
+  head(Ranking)
+  tail(Ranking)
+  return(View(Ranking))
+}
+
+
 #FIRST FUNCTION: Rank_countries() gives back a bar graph showing the countries by number of universities in Ranking.
 Rank_Countries <- function() {
 
