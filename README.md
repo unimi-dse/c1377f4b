@@ -11,7 +11,13 @@
 
 ## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
-   - *world_rank*: world rank for university
+
+    | First Header  | Second Header 
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
+    
+   *world_rank*: world rank for university
    - *institution*: name of university
    - *country*: country of each university
    - *national_rank*: rank of university within its country
