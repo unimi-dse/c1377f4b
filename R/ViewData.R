@@ -8,6 +8,6 @@
 #'
 
 ViewData <- function() {
-  UniData <- read.csv("")
+  UniData <- read.csv("data/cwurData.csv")
   return(UniData)
 }
