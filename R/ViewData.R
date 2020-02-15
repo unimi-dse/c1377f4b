@@ -1,14 +1,13 @@
-#' ViewData2
+#' GetData
 #'
-#' @description Upload and see the .csv Data set containing information about World University Ranking
+#' @description Data are already contained into the package UniversityRanking through the file cwur.RData.
 #'
-#' @return read.csv
+#' @return table with 2200 obs. of 14 variables.
 #'
 #' @export
 #'
 
-ViewData <- function() {
+GetData <- function() {
   return(cwur.data)
-  #UniData <- read.csv("data/cwurData.csv")
-  #return(UniData)
 }
+
