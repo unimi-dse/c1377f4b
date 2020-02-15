@@ -26,3 +26,4 @@ Rank_Countries <- function() {
     ggtitle("Number of listed universities for each country")
   return(f1)}
 
+
