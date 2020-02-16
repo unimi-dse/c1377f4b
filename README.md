@@ -39,5 +39,7 @@
 
 3. `ScoreInteractive` takes a numeric argument to plot the scores of the universities over years.
 
-4. `Top10_2015` lists the best ranked universities in the world in 2015. 
+4. `TopUni` lists the best ranked universities in the world in 2015. 
+
+5. 'Rank_U
   

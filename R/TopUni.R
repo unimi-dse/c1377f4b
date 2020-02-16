@@ -16,13 +16,11 @@ TopUni <- function(nUni, nYear) {
     stop("Select a number of universities lower than 1024")
   }
 
-
-  theme_b <- theme (axis.text.x = element_blank(), legend.position = "none")
-
   f2 <- cwur.data %>%
     filter(world_rank<= nUni & year== nYear) %>%
-    ggplot(aes(x=reorder(institution,world_rank),y=world_rank))+
-    geom_bar(stat="identity",fill="red") + theme_b +
+    ggplot(aes(x=reorder(institution,world_rank),y=1/world_rank))+
+    geom_bar(stat="identity",fill="red") +
+    theme(axis.text.x=element_text(angle=90)) +
     labs(title=print(paste("Top", nUni, "World Universities in", nYear)))+
     geom_label(aes(label=institution),size=3)
 
