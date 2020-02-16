@@ -5,5 +5,6 @@ export(Top10_2015)
 export(Rank_Countries)
 export(GetData)
 importFrom("stats", "filter", "reorder")
-importFrom(dplyr,"%>%")
-importFrom(ggplot2, "ggplot", "aes", "geom_bar", "coord_flip", "theme", "labs", "ggtitle", "geom_line", "geom_label", "element_text")
+importFrom(dplyr,"%>%", "group_by", "summarise", "n", "select")
+importFrom(ggplot2, "ggplot", "aes", "geom_bar", "coord_flip", "theme", "labs", "ggtitle", "geom_line", "geom_label", "element_text", "element_blank")
+
