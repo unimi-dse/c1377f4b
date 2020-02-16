@@ -10,7 +10,10 @@
 #'
 
 GetData <- function() {
-
+  library(dplyr)
+  library(ggplot2)
   return(cwur.data)
 }
+
+
 
