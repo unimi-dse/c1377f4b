@@ -2,8 +2,7 @@
 % Please edit documentation in R/Rank_Countries.R
 \name{Rank_Countries}
 \alias{Rank_Countries}
-\title{Rank_countries
-Rank_Countries}
+\title{Rank_Countries}
 \usage{
 Rank_Countries()
 }
