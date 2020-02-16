@@ -7,7 +7,7 @@
 
 ## Usage:
 ##### Load the package:
-      require(UniversityR)
+      require(UniversityRanking)
 
 ## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
@@ -33,11 +33,9 @@
 ##### Once installed the needed packages (`devtools`, `tidyverse`, `dplyr`), it's possible to call the following functions to obtain the visualisation of four differents plots:
 
 
-1. `ViewData()` shows all the countries ordered by number of universities appeared in the rankings. 
- 
+1. `GetData()` returns the data contained in the dataset.
+
 2. `Top10_2015()` lists the best ranked universities in the world in 2015. 
    
-3. `University_count2015()` shows how many universities appeared in 2015 rankings for each state.
-   
-4. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
+3. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
   
