@@ -8,6 +8,9 @@
 #'@export
 
 TopUni <- function(nUni, nYear) {
+
+  cwur.data <- read.csv2("data/cwurData.csv", header = TRUE, sep=",")
+
   if(nYear<2012 | nYear>2015) {
    stop("Choose a year between 2012 and 2015")
   }
