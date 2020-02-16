@@ -32,14 +32,15 @@
 ## Functions:
 ##### Once installed the needed packages (`devtools`, `ggplot2`, `dplyr`), it's possible to call the following functions to observe the data differently:
 
-
 1. `HeadData` returns the first 6 observations contained in the dataset.
    
-2. `Score700` plots the score ranks over 700 of universities across the years.
+2. `Rank_Countries` shows the number of universities for each country. 
 
-3. `ScoreInteractive` takes a numeric argument to plot the scores of the universities over years.
+3. `TopUni` plots the top desidered number of universities for a chosen year between 2012 and 2015. It is possible to choose up to 1024 institutions.
 
-4. `TopUni` plots the top desidered number of universities for a chosen year between 2012 and 2015. It is possible to choose up to 1024 institutions. 
+4. `Score700` plots the score ranks over 700 of universities across the years.
 
-5. `Rank_Countries` shows the number of universities for each country.
+5. `ScoreInteractive` takes a numeric argument to plot the scores of the universities over years.
+
+
   
