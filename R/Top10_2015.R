@@ -5,11 +5,13 @@
 #' @return plot
 #'
 #' @export
-#' @imports: dplyr, ggplot2
+#' @importFrom: magrittr, dplyr, ggplot2
 #'
 
 
 Top10_2015 <- function() {
+
+  cwur.data <- world_rank <- year <- institution <- NULL
 
   theme_b<-theme(axis.text.x = element_blank(),legend.position = "none")
 

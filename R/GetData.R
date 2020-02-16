@@ -8,6 +8,9 @@
 #'
 
 GetData <- function() {
+
+  cwur.data <- NULL
+
   return(cwur.data)
 }
 
