@@ -10,6 +10,8 @@
 
 
 Rank_Countries <- function() {
+  library(dplyr)
+  library(ggplot2)
 
   cwur.data <- country <- count <- NULL
 

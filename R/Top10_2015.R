@@ -11,6 +11,9 @@
 
 Top10_2015 <- function() {
 
+  library(dplyr)
+  library(ggplot2)
+
   cwur.data <- world_rank <- year <- institution <- NULL
 
   theme_b<-theme(axis.text.x = element_blank(),legend.position = "none")
