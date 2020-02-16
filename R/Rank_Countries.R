@@ -5,10 +5,6 @@
 #'@return plot
 #'
 #'@export
-#'
-#'
-#'
-#'
 
 Rank_Countries <- function() {
 
