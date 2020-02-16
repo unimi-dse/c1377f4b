@@ -11,8 +11,6 @@
 
 Rank_Countries <- function() {
 
-  cwur.data <- country <- count <- NULL
-
   #' create a data frames with the all universities in Ranking and count them by country
   RankingCount <- cwur.data %>% group_by(country) %>% summarise(count=n())
 
