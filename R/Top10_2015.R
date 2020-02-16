@@ -12,6 +12,9 @@
 
 Top10_2015 <- function() {
 
+  library(dplyr)
+  library(ggplot2)
+
   theme_b <-theme (axis.text.x = element_blank(),legend.position = "none")
 
   f2 <- cwur.data %>%
