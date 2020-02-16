@@ -10,7 +10,10 @@
 
 
 Score65 <- function() {
+
   library(ggplot2)
+  library(dplyr)
+
   f3 <- cwur.data %>% select(institution,score,year)%>%filter(score>65)%>%ggplot(aes(x=institution,y=score,group=year,col=factor(year)))+geom_line()+theme(axis.text.x=element_text(angle=90))+labs(cwur.data, title='Insitutions with Score over 65')
   return(f3)
 }
