@@ -5,7 +5,7 @@
 #'@return plot
 #'
 #'@export
-#'@imports: stats, filter, reorder
+#'@imports: dplyr, ggplot2
 #'
 
 

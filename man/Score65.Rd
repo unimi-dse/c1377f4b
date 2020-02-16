@@ -10,5 +10,5 @@ Score65()
 plot
 }
 \description{
-Score65() paragones universities with score>65 from 2012 to 2015.
+The function Score65 paragones universities with score>65 from 2012 to 2015.
 }

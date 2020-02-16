@@ -2,7 +2,8 @@
 % Please edit documentation in R/Rank_Countries.R
 \name{Rank_Countries}
 \alias{Rank_Countries}
-\title{Rank_countries}
+\title{Rank_countries
+Rank_Countries}
 \usage{
 Rank_Countries()
 }
@@ -10,5 +11,5 @@ Rank_Countries()
 plot
 }
 \description{
-Rank_countries() gives back a bar graph showing the countries listed by number of universities in ranking.
+The function Rank_Countries gives back a bar graph showing the countries listed by number of universities in ranking.
 }

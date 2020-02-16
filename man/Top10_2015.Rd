@@ -10,5 +10,5 @@ Top10_2015()
 plot
 }
 \description{
-Top10_2015() gives back the top 10 Universities in World in 2015
+The function Top10_2015 gives back the top 10 Universities in World in 2015
 }
