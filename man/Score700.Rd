@@ -4,7 +4,7 @@
 \alias{Score700}
 \title{Score700}
 \usage{
-Score700(setpoint)
+Score700()
 }
 \value{
 plot

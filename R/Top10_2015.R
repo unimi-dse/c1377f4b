@@ -1,22 +1,25 @@
-#'Top10_2015
+#'Top_nUniversities_nYear
 #'
-#'@description The function Top10_2015 gives back the top 10 Universities in World in 2015
+#'@description The function Top_nUniversities_nYear plots the top desidered number of universities for a chosen year between 2012 and 2015.
 #'
 #'@return plot
 #'
 #'@export
 
+Top_nUniversities_year <- function(nUni, nYear) {
+  if(nYear<2012 | nYear>2015) {
+   stop("Choose a year between 2012 and 2015")
+    }
 
-Top10_2015 <- function() {
-
-  theme_b <-theme (axis.text.x = element_blank(),legend.position = "none")
+  theme_b <- theme (axis.text.x = element_blank(), legend.position = "none")
 
   f2 <- cwur.data %>%
-    filter(world_rank<=10 & year==2015) %>%
-    select(world_rank,institution) %>%
+    filter(world_rank<= nUni & year== nYear) %>%
+    #select(world_rank,institution) %>%
     ggplot(aes(x=reorder(institution,world_rank),y=world_rank))+
     geom_bar(stat="identity",fill="red") + theme_b +
-    labs(title="Top 10 World Universities in 2015")+
+    #theme(axis.text.x=element_text(angle=90)) +
+    labs(title=print(paste("Top", nUni, "World Universities in", nYear)))+
     geom_label(aes(label=institution),size=3)
 
   return(f2)

@@ -5,8 +5,9 @@
 #'@return plot
 #'
 #'@export
+#'
 
-Score700 <- function(setpoint) {
+Score700 <- function() {
 
   library(ggplot2)
   library(dplyr)
