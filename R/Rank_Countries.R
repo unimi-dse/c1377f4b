@@ -15,7 +15,9 @@ Rank_Countries <- function() {
   RankingCount <- cwur.data %>% group_by(country) %>% summarise(count=n())
 
   #create the ggplot containing
-  f1 <- ggplot(RankingCount, aes(x=reorder(country, -count), y=count, fill=country))+geom_bar(stat="identity")+coord_flip()+ theme(legend.position="none")+ labs(x="Country",y="Count")+ ggtitle("Number of listed universities for each country")
+  f1 <- ggplot(RankingCount, aes(x=reorder(country, -count), y=count, fill=country))+geom_bar(stat="identity")+coord_flip()+ theme(legend.position="none")+ labs(x="Country",y="Count")+ ggtitle("Number of universities for each country from 2012 to 2015")
 
   return(f1)
 }
+
+

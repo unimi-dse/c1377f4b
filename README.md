@@ -10,7 +10,7 @@
       require(UniversityRanking)
 
 ## Dataset description: 
-##### The dataset `cwurData.csv` contains 14 columns:
+##### The dataset `cwurData.csv` contains 2200 obervations organised by 14 columns:
 
 | Variable | Description |
 | --- | --- |
@@ -30,12 +30,14 @@
 | *year* | year of ranking (2012 to 2015) |
    
 ## Functions:
-##### Once installed the needed packages (`devtools`, `tidyverse`, `dplyr`), it's possible to call the following functions to obtain the visualisation of four differents plots:
+##### Once installed the needed packages (`devtools`, `ggplot2`, `dplyr`), it's possible to call the following functions to observe the data differently:
 
 
-1. `GetData()` returns the data contained in the dataset.
-
-2. `Top10_2015()` lists the best ranked universities in the world in 2015. 
+1. `Import Data` returns the data contained in the dataset.
    
-3. `Score65()` presents all the universities that gained a score over 65 in the rankigs from 2012 to 2015. 
+2. `Score700` plots the score ranks over 700 of universities across the years.
+
+3. `ScoreInteractive`  takes a numeric argument to plot the scores of the universities over years.
+
+4. `Top10_2015` lists the best ranked universities in the world in 2015. 
   
