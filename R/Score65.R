@@ -10,8 +10,6 @@
 
 
 Score65 <- function() {
-  library(dplyr)
-  library(ggplot2)
 
   cwur.data <- institution <- score <- year <- NULL
 
