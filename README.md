@@ -39,7 +39,7 @@
 
 3. `ScoreInteractive` takes a numeric argument to plot the scores of the universities over years.
 
-4. `TopUni` lists the best ranked universities in the world in 2015. 
+4. `TopUni` plots the top desidered number of universities for a chosen year between 2012 and 2015. It is possible to choose up to 1024 institutions. 
 
-5. 'Rank_U
+5. `Rank_Countries` shows the number of universities for each country.
   
