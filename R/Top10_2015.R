@@ -1,18 +1,15 @@
 #' Top10_2015
 #'
-#' @description Top10_2015() gives back the top 10 Universities in World in 2015
+#' @description The function Top10_2015 gives back the top 10 Universities in World in 2015
 #'
 #' @return plot
 #'
 #' @export
-#' @importFrom: ggplot2, dplyr
-#'
+#' @imports: stats, filter, reorder
 #'
 
 
 Top10_2015 <- function() {
-  library(ggplot2)
-  library(dplyr)
 
   theme_b<-theme(axis.text.x = element_blank(),legend.position = "none")
 

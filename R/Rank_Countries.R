@@ -1,18 +1,15 @@
 #' Rank_countries
-#'
-#'@description Rank_countries() gives back a bar graph showing the countries listed by number of universities in ranking.
+#'Rank_Countries
+#'@description The function Rank_Countries gives back a bar graph showing the countries listed by number of universities in ranking.
 #'
 #'@return plot
 #'
 #'@export
-#'@importFrom: ggplot2, dplyr
+#'@imports: stats, filter, reorder
 #'
 
 
 Rank_Countries <- function() {
-
-  library(ggplot2)
-  library(dplyr)
 
   #' create a data frames with the all universities in Ranking and count them by country
   RankingCount <- cwur.data %>% group_by(country) %>% summarise(count=n())

@@ -8,4 +8,5 @@ Description: The package aims at exploring and visualising data about world univ
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: shiny, ggplot2, dplyr
+Imports: devtools, shiny, ggplot2, dplyr
+RoxygenNote: 7.0.2
