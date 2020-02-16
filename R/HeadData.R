@@ -7,7 +7,6 @@
 #' @export
 
 HeadData <- function(){
-  cwur.data <- read.csv2("data/cwurData.csv", header = TRUE, sep=",")
   return(head(cwur.data))
   }
 
