@@ -1,4 +1,4 @@
-#' cwur.data
+#' ImportData
 #'
 #' @description importing data from .csv file
 #'
@@ -7,3 +7,6 @@
 #' @export
 
 cwur.data <- read.csv2("data/cwurData.csv", header = TRUE, sep=",")
+head(cwur.data)
+
+
