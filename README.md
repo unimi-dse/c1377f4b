@@ -7,7 +7,7 @@
 
 ## Usage:
 ##### Load the package:
-      require(UniversityR)
+      require(UniversityRanking)
 
 ## Dataset description: 
 ##### The dataset `cwurData.csv` contains 14 columns:
