@@ -12,6 +12,7 @@
 Top10_2015 <- function() {
 
   cwur.data <- world_rank <- year <- institution <- NULL
+  detach(cwur.data)
 
   theme_b<-theme(axis.text.x = element_blank(),legend.position = "none")
 
