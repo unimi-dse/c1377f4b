@@ -3,3 +3,4 @@
 export(GetData)
 export(Score65)
 export(Top10_2015)
+importFrom("ggplot2,",dplyr)
