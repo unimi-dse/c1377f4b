@@ -11,10 +11,9 @@
 
 Rank_Countries <- function() {
 
-  UniData <- ViewData()
 
   #' create a data frames with the all universities in Ranking and count them by country
-  RankingCount <- UniData %>% group_by(country) %>% summarise(count=n())
+  RankingCount <- cwur.data %>% group_by(country) %>% summarise(count=n())
 
   #' create the ggplot containing
   f1 <- ggplot(RankingCount,
