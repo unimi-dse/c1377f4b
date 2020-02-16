@@ -11,6 +11,8 @@
 
 Top10_2015 <- function() {
 
+  attach(cwur.data)
+
   theme_b<-theme(axis.text.x = element_blank(),legend.position = "none")
 
   f2 <- cwur.data %>% filter(world_rank<=10 & year==2015) %>% select(world_rank,institution) %>%
