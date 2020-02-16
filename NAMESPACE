@@ -2,6 +2,4 @@
 
 export(HeadData)
 export(Rank_Countries)
-export(Score700)
-export(ScoreInteractive)
 export(TopUni)
