@@ -1,4 +1,4 @@
-#'Top_nUniversities_nYear
+#'TopUni
 #'
 #'@description The function Top_nUniversities_nYear plots the top desidered number of universities for a chosen year between 2012 and 2015.
 #'
@@ -6,10 +6,15 @@
 #'
 #'@export
 
-Top_nUniversities_year <- function(nUni, nYear) {
+TopUni <- function(nUni, nYear) {
   if(nYear<2012 | nYear>2015) {
    stop("Choose a year between 2012 and 2015")
-    }
+  }
+
+  if(nUni>1024) {
+    stop("Select a number lower than 1024")
+  }
+
 
   theme_b <- theme (axis.text.x = element_blank(), legend.position = "none")
 
