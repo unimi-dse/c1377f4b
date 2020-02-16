@@ -15,7 +15,7 @@ Score700 <- function() {
 
   Score <- cwur.data %>% select(institution,score,year)%>%filter(score>700)
 
-  f3 <- ggplot(cwur.data, aes(x=year,y=score,group=institution,col=factor(institution)))+geom_line()+theme(axis.text.x=element_text(angle=90))+labs(cwur.data, title= "Score trend of institutions with score over 700 across years")
+  f3 <- ggplot(Score, aes(x=year,y=score,group=institution,col=factor(institution)))+geom_line()+theme(axis.text.x=element_text(angle=90))+labs(cwur.data, title= "Score trend of institutions with score over 700 across years")
   return(f3)
 
 }
