@@ -10,5 +10,5 @@ Rank_Countries()
 plot
 }
 \description{
-The function Rank_Countries gives back a bar graph showing the countries listed by number of universities in ranking.
+The function shows the number of universities for each country.
 }

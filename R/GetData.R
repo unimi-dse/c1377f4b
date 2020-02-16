@@ -5,10 +5,6 @@
 #'@return table with 2200 obs. of 14 variables.
 #'
 #'@export
-#'
-#'
-#'
-#'
 
 GetData <- function() {
   return(cwur.data)

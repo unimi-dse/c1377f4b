@@ -1,0 +1,20 @@
+#'Score65
+#'
+#'@description The function Score65 paragones universities with score>65 from 2012 to 2015.
+#'
+#'@return plot
+#'
+#'@export
+
+Score65 <- function() {
+
+  library(ggplot2)
+  library(dplyr)
+
+  cwur.data$score <- as.numeric(cwur.data$score)
+
+  f3 <- cwur.data %>% select(institution,score,year)%>%filter(score>700)%>%ggplot(aes(x=institution,y=score,group=year,col=factor(year)))+geom_line()+theme(axis.text.x=element_text(angle=90))+labs(cwur.data, title='Insitutions with Score over 700')
+  return(f3)
+}
+
+
