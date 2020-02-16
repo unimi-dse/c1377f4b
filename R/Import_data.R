@@ -1,4 +1,4 @@
-#' Import data
+#' cwur.data
 #'
 #' @description importing data from .csv file
 #'
