@@ -33,7 +33,7 @@
 ##### Once installed the needed packages (`devtools`, `ggplot2`, `dplyr`), it's possible to call the following functions to observe the data differently:
 
 
-1. `cwur.data` returns the data contained in the dataset.
+1. `HeadData` returns the first 6 observations contained in the dataset.
    
 2. `Score700` plots the score ranks over 700 of universities across the years.
 
