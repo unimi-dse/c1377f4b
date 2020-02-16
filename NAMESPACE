@@ -2,6 +2,7 @@
 
 export(GetData)
 export(Rank_Countries)
-export(Score65)
+export(Score700)
+export(ScoreInteractive)
 export(Top10_2015)
 export(cwur.data)
